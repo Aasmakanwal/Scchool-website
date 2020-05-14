@@ -1,0 +1,162 @@
+ /* first container  */
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    text-decoration: none !important;
+    /* font-style: italic; */
+  }
+  nav{
+    background: #0f63a3;
+    height: 90px;
+    width: 100%;
+  }
+  label.header{
+    color: white;
+    padding: 0 50px;
+    font-weight:normal;
+    font-size: 30px;
+    line-height: 80px;
+  }
+  nav .ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav .ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+    list-style: none;
+  }
+  nav .ul li a{
+    color: white;
+    /* font-weight: 500; */
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif; */
+  }
+  a.menu,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+    color: white !important;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 90px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.header{
+      font-size: 25px;
+      padding-left: 40px;
+    }
+    nav .ul li a{
+      font-size: 16px;
+    }
+    .second-two li{
+       margin-left: 0;
+    }
+    .second-two h5{
+      padding-left: 0;
+    }
+  }
+  @media (max-width: 1025px){
+    .checkbtn{
+      display: block;
+      margin-right: 40px;
+    }
+    .ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 90px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    .two-2 img{
+      width: 350px;
+    }
+    nav .ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav .ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.menu{
+      background: none;
+      color: #0082e6 !important;
+    }
+    #check:checked ~ .ul{
+      left: 0;
+    }
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border: 1px solid rgb(241, 236, 236);
+  }
+  /* fourth container */
+.fourth{
+  margin-top: 80px;
+  padding-bottom: 80px;
+  /* height: 300px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, red , yellow , orange);
+}
+.fourth-one,.fourth-two{
+  padding-top: 50px;
+}
+.fourth-one li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 50px 10px 5px 10px;
+}
+.fourth-one li .fa{
+  padding: 5px 8px 5px 8px;
+  color: rgb(146, 139, 139);
+  background-color: rgba(218, 228, 203, 0.671);
+  border-radius: 20px;
+}
+.fourth-one h1{
+  font-size: 30px;
+}
+.fourth-one li a{
+  text-decoration: transparent;
+  background-color: transparent;
+}
+/* second container */
+.second-one{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center !important;
+  color: #8e3abe;
+}
+.second-two h5{
+  color: rgb(63, 62, 62);
+  font-size: 17px;
+  padding-left:50px ;
+}
+.second-two li {
+  color: gray;
+  margin-left: 60px;
+}
+
+
+  
