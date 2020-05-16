@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     text-decoration: none !important;
     /* font-style: italic; */
   }
@@ -108,9 +108,7 @@
   }
     /* fourth container */
 .fourth{
-  margin-top: 80px;
   padding-bottom: 80px;
-  /* height: 300px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -136,4 +134,48 @@
 .fourth-one li a{
   text-decoration: transparent;
   background-color: transparent;
+}
+  /* 2nd container */
+.second-one{ 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: center !important;
+  color: #9e0df1;
+  background-image: linear-gradient(to right, rgb(157, 157, 206),rgb(47, 47, 105),rgb(85, 85, 129));
+}
+.second-two{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+
+}
+.two-1 h1,.two-2 h1{
+  color: #24347e;
+  font-family: 'Times New Roman', Times, serif;
+}
+.two-2{
+  flex: 2;
+  padding: 0px 10px 0px 0px;
+}
+.two-1{
+  flex: 1;
+  padding: 0px 10px 0px 0px;
+}
+/* third container */
+.third,.fifth-one{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #24347e;
+  margin-top: 50px;
+}
+/* fifth container */
+.fifth-two{
+  background-color:rgb(226, 226, 226);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 100px 70px 100px;
 }
