@@ -1,7 +1,5 @@
 /* first container */
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
@@ -16,7 +14,9 @@ label.header{
   font-weight:normal;
   font-size: 30px;
   line-height: 80px;
-
+  font-family: 'Dancing Script', cursive; 
+  text-shadow: 8px 8px 12px red;
+  margin-bottom: 0px;
 }
 nav .ul{
   float: right;
@@ -64,10 +64,16 @@ a.menu,a:hover{
     font-size: 16px;
   }
 }
+@media (max-width: 458px){
+  label.header{
+    padding-left:20px !important;
+    font-size: 20px !important;
+  }
+}
 @media (max-width: 1025px){
   .checkbtn{
     display: block;
-    margin-right: 40px;
+    margin-right: 20px;
   }
   /* .sticky {
     position: sticky;
@@ -117,6 +123,11 @@ a.menu,a:hover{
   justify-content: space-around;
   background-image: linear-gradient(to right, red , yellow , orange);
 }
+.fourth-one h1{
+  font-family: 'Dancing Script', cursive; 
+  text-shadow: 8px 8px 12px rgb(80, 0, 0);
+  font-weight: bold;
+}
 .fourth-one,.fourth-two{
   padding-top: 50px;
 }
@@ -138,4 +149,6 @@ a.menu,a:hover{
   text-decoration: transparent;
   background-color: transparent;
 }
-
+/* first container */
+.first{
+}

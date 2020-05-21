@@ -16,6 +16,8 @@
     font-weight:normal;
     font-size: 30px;
     line-height: 80px;
+    text-shadow: 8px 8px 12px red;
+    font-family: 'Dancing Script', cursive;
   }
   nav .ul{
     float: right;
@@ -54,6 +56,12 @@
   #check{
     display: none;
   }
+  @media (max-width: 458px){
+    label.header{
+      padding-left:20px !important;
+      font-size: 20px !important;
+    }
+  }
   @media (max-width: 952px){
     label.header{
       font-size: 25px;
@@ -66,7 +74,7 @@
   @media (max-width: 1025px){
     .checkbtn{
       display: block;
-      margin-right: 40px;
+      margin-right: 20px;
     }
     /* .sticky {
       position: sticky;
@@ -119,6 +127,10 @@
 .fourth-one,.fourth-two{
   padding-top: 50px;
 }
+.fourth-one h1{
+  font-family: 'Dancing Script', cursive; 
+  text-shadow: 8px 8px 12px rgb(80, 0, 0);
+}
 .fourth-one li{
   list-style-type: none;
   display: inline-block;
@@ -141,12 +153,14 @@
 .second-one{
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 30px;
   text-align: center !important;
   color: #9e0df1;
-  /* border: 1px solid black; */
-  /* background-color: linear-gradient(to right, rgb(157, 157, 206),rgb(17, 17, 78),rgb(85, 85, 129)); */
   background-image: linear-gradient(to right, rgb(157, 157, 206),rgb(47, 47, 105),rgb(85, 85, 129));
+}
+@media (max-width:900px){
+  .second-one h1{
+    font-size: 25px;
+  }
 }
 /* third container */
 .third-one{
@@ -177,8 +191,11 @@
   margin-top:100px ;
   /* background-color: #bbbbbb; */
   color: #4e1919;
-  text-shadow: -1px -2px #ce9b9b;
+  text-shadow: 5px 6px 7px #911d1d;
 }
 .fifth-three .three-one{
  text-align: center;
 }
+/* .sixth img{
+  margin-top: 0px;
+} */
