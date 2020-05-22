@@ -22,6 +22,10 @@ nav .ul{
   float: right;
   margin-right: 20px;
 }
+.ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
 nav .ul li{
   display: inline-block;
   line-height: 90px; 
@@ -30,13 +34,11 @@ nav .ul li{
 }
 nav .ul li a{
   color: white;
-  /* font-weight: 500; */
   font-size: 17px;
-  padding: 7px 13px;
+  padding: 7px 7px;
   border-radius: 3px;
   text-transform: uppercase;
   text-decoration: none;
-  /* font-family: 'Poppins', sans-serif; */
 }
 a.menu,a:hover{
   background: #1b9bff;
@@ -149,6 +151,77 @@ a.menu,a:hover{
   text-decoration: transparent;
   background-color: transparent;
 }
-/* first container */
-.first{
+/* second container */
+.second{
+  display: flex;
+  /* background-color: rgb(255, 255, 123); */
+  flex-wrap: wrap;
+}
+.second-one{
+  background-color: yellow;
+  color:#2957A4 ;
+}
+.second-two{
+  background-color: blue;
+  color: yellow;
+}
+.second-one,.second-two{
+  text-align: center;
+  width: 50%;
+  /* flex: 2; */
+  padding: 50px 0px 130px 0px;
+  /* border: 1px solid red; */
+}
+@media (max-width:660px){
+  .second-one,.second-two{
+    width: 100%;
+  }
+}
+.second-one img,.second-two img{
+  margin-bottom: 10px;
+}
+.second-one h2, .second-two h2{
+  /* font-size: 20px; */
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+}
+.second-one a:hover,.second-two a:hover{
+  color: white !important;
+  background-image: linear-gradient(to right, rgb(1, 1, 121) , rgb(3, 3, 201));
+}
+.second-one a,.second-two a{
+  text-decoration: none !important;
+  font-weight: bold;
+  padding: 13px 70px;
+  color: white;
+  background-image: linear-gradient(to right, navy , rgb(5, 5, 231));
+}
+/* third container */
+.third{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  /* flex-wrap: wrap; */
+}
+.third-one{
+  width: 55%;
+  margin-right: 40px;
+}
+@media (max-width:660px){
+  .third-one{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.third-two{
+  width: 40%;
+}
+.third-one h1, .fifth-one h1{
+  /* text-align: center; */
+   color: #24347e;
+  font-family: 'Times New Roman', Times, serif;
+}
+.third-one p{
+  color: rgb(105, 104, 104);
+  font-size: 18px;
 }
