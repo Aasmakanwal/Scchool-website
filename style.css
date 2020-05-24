@@ -11,7 +11,7 @@ nav{
 label.header{
   color: white;
   padding: 0 50px;
-  font-weight:normal;
+  font-weight:normal; 
   font-size: 30px;
   line-height: 80px;
   font-family: 'Dancing Script', cursive; 
@@ -117,9 +117,7 @@ a.menu,a:hover{
 }
 /* fourth container */
 .fourth{
-  margin-top: 80px;
   padding-bottom: 80px;
-  /* height: 300px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -162,7 +160,7 @@ a.menu,a:hover{
   color:#2957A4 ;
 }
 .second-two{
-  background-color: blue;
+  background-color: rgb(2, 2, 206);
   color: yellow;
 }
 .second-one,.second-two{
@@ -212,6 +210,13 @@ a.menu,a:hover{
     width: 100%;
     margin-right: 0;
   }
+  .fifth-two{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .fifth-two div{
+    width: 100% !important;
+  }
 }
 .third-two{
   width: 40%;
@@ -224,4 +229,70 @@ a.menu,a:hover{
 .third-one p{
   color: rgb(105, 104, 104);
   font-size: 18px;
+}
+/* fifth container */
+.fifth-one h1{
+  margin-top: 40px;
+  font-size: 50px;
+}
+.fifth-two{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifth-two div{
+  text-align: center;
+  background-color: navy;
+  padding: 60px 0px 80px 0px;
+  margin: 10px 15px 5px 0px;
+  width: 30%;
+}
+.fifth-two div img{
+  margin-bottom: 40px;
+}
+.fifth-two div h4{
+  text-align: center;
+  margin-bottom: 50px;  
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.fifth-two div a,.sixth div a,.seventh div a{
+  text-decoration: none !important;
+  font-weight: bold;
+  color: white;
+}
+.fifth-two div a:hover{
+  background-color: transparent;
+}
+.sixth div a:hover,.seventh div a:hover{
+  background-image: linear-gradient(to right, rgb(75, 5, 5) , rgb(165, 0, 0));
+}
+.sixth,.seventh{
+  background-color: rgb(11, 11, 151);
+  margin-top: 40px;
+  display: flex;
+}
+.sixth div{
+  padding: 100px 0px 100px 0px;
+  flex: 2;
+  text-align: center;
+}
+.sixth div h1,.seventh h1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.sixth div a{
+  font-size: 12px;
+  background-image: linear-gradient(to right, rgb(122, 3, 3) , rgb(214, 0, 0));
+  padding: 8px 80px; ;
+}
+/* seventh container */
+.seventh div{
+  padding: 60px 0px 60px 0px;
+  flex: 2;
+  text-align: center;
+}
+.seventh div a{
+  font-size: 12px;
+  background-image: linear-gradient(to right, rgb(122, 3, 3) , rgb(214, 0, 0));
+  padding: 16px 80px; 
 }
