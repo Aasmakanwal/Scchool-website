@@ -269,12 +269,14 @@ a.menu,a:hover{
 .sixth,.seventh{
   background-color: rgb(11, 11, 151);
   margin-top: 40px;
-  display: flex;
-}
-.sixth div{
   padding: 100px 0px 100px 0px;
-  flex: 2;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  /* text-align: center; */
+}
+.sixth div,.seventh div{
+  margin-left: auto;
+  margin-right: auto;
 }
 .sixth div h1,.seventh h1{
   color: white;
@@ -286,13 +288,28 @@ a.menu,a:hover{
   padding: 8px 80px; ;
 }
 /* seventh container */
-.seventh div{
-  padding: 60px 0px 60px 0px;
-  flex: 2;
-  text-align: center;
-}
 .seventh div a{
   font-size: 12px;
   background-image: linear-gradient(to right, rgb(122, 3, 3) , rgb(214, 0, 0));
   padding: 16px 80px; 
+}
+/* eight container */
+.eight{
+  margin: 50px 55px 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
