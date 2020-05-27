@@ -198,3 +198,21 @@
 .fifth-two div{
   padding: 20px 0px 10px 0px;
 }
+.fa-angle-up{
+  color: navy;
+  font-size: 40px !important;
+  font-weight: bolder !important;
+}
+.top-btn a:hover{
+  color: navy !important;
+  text-decoration: none;
+}
+.top-btn{
+  width: 60px;
+  height:60px;
+  border-radius: 30px ;
+  background-color: rgba(175, 159, 159, 0.603);
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}

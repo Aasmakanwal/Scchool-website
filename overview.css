@@ -2,7 +2,6 @@
 *{
     box-sizing: border-box;
     text-decoration: none !important;
-    /* font-style: italic; */
   }
   nav{
     background: #0f63a3;
@@ -19,7 +18,7 @@
     text-shadow: 8px 8px 12px rgb(80, 0, 0);
   }
   .ul{
-    padding-left: 0;
+    padding-left: 0; 
     margin-bottom: 0;
   }
   nav .ul{
@@ -33,13 +32,11 @@
   }
   nav .ul li a{
     color: white;
-    /* font-weight: 500; */
     font-size: 17px;
     padding: 7px 7px;
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;
-    /* font-family: 'Poppins', sans-serif; */
   }
   a.menu,a:hover{
     background: #1b9bff;
@@ -115,7 +112,6 @@
       text-align: justify;
       margin-left: auto;
       margin-right: auto;
-      /* width: 1200px; */
       font-size: 18px;
       color: gray;
       line-height:30px;
@@ -129,13 +125,14 @@
     color: #9e0df1;
     background-image: linear-gradient(to right, rgb(157, 157, 206),rgb(47, 47, 105),rgb(85, 85, 129));
   }
-.second-two p{
+.second-two .two-1 > p{
     color: rgb(63, 62, 62);
     font-size: 17px;
-    padding-left:20px ;
+    padding-left:50px ;
 }
 .second-two li p{
     color: gray;
+    padding-left:10px ;
 }
 .second-two{
     display: flex;
@@ -145,7 +142,6 @@
 .fourth{
     margin-top: 80px;
     padding-bottom: 80px;
-    /* height: 300px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -175,4 +171,22 @@
 .fourth-one li a{
     text-decoration: transparent;
     background-color: transparent;
+}
+.fa-angle-up{
+  color: navy;
+  font-size: 40px !important;
+  font-weight: bolder !important;
+}
+.top-btn a:hover{
+  color: navy !important;
+  text-decoration: none;
+}
+.top-btn{
+  width: 60px;
+  height:60px;
+  border-radius: 30px ;
+  background-color: rgba(175, 159, 159, 0.603);
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
 }

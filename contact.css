@@ -1,9 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
-    /* font-style: italic; */
   }
   nav{
     background: #0f63a3;
@@ -35,7 +32,6 @@
   }
   nav .ul li a{
     color: white;
-    /* font-weight: 500; */
     font-size: 17px;
     padding: 7px 7px;
     border-radius: 3px;
@@ -186,20 +182,33 @@
 /* fifth container */
 .fifth-1{
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-evenly;
   margin: 50px 0px 0px 0px;
 
 } 
 .fifth{
   margin-top:100px ;
-  /* background-color: #bbbbbb; */
   color: #4e1919;
   text-shadow: 5px 6px 7px #911d1d;
 }
 .fifth-three .three-one{
  text-align: center;
 }
-/* .sixth img{
-  margin-top: 0px;
-} */
+.fa-angle-up{
+  color: navy;
+  font-size: 40px !important;
+  font-weight: bolder !important;
+}
+.top-btn a:hover{
+  color: navy !important;
+  text-decoration: none;
+}
+.top-btn{
+  width: 60px;
+  height:60px;
+  border-radius: 30px ;
+  background-color: rgba(175, 159, 159, 0.603);
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}

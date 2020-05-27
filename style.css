@@ -66,23 +66,18 @@ a.menu,a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 458px){
+@media (max-width: 490px){
   label.header{
     padding-left:20px !important;
     font-size: 20px !important;
   }
 }
+
 @media (max-width: 1025px){
   .checkbtn{
     display: block;
     margin-right: 20px;
   }
-  /* .sticky {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    border: 1px solid rgb(241, 236, 236);
-  } */
   .ul{
     position: fixed;
     width: 100%;
@@ -152,7 +147,6 @@ a.menu,a:hover{
 /* second container */
 .second{
   display: flex;
-  /* background-color: rgb(255, 255, 123); */
   flex-wrap: wrap;
 }
 .second-one{
@@ -166,9 +160,7 @@ a.menu,a:hover{
 .second-one,.second-two{
   text-align: center;
   width: 50%;
-  /* flex: 2; */
   padding: 50px 0px 130px 0px;
-  /* border: 1px solid red; */
 }
 @media (max-width:660px){
   .second-one,.second-two{
@@ -179,7 +171,6 @@ a.menu,a:hover{
   margin-bottom: 10px;
 }
 .second-one h2, .second-two h2{
-  /* font-size: 20px; */
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 50px;
 }
@@ -199,7 +190,6 @@ a.menu,a:hover{
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  /* flex-wrap: wrap; */
 }
 .third-one{
   width: 55%;
@@ -222,7 +212,6 @@ a.menu,a:hover{
   width: 40%;
 }
 .third-one h1, .fifth-one h1{
-  /* text-align: center; */
    color: #24347e;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -260,7 +249,7 @@ a.menu,a:hover{
   font-weight: bold;
   color: white;
 }
-.fifth-two div a:hover{
+.fifth-two div a:hover,.top-btn a:hover{
   background-color: transparent;
 }
 .sixth div a:hover,.seventh div a:hover{
@@ -272,7 +261,6 @@ a.menu,a:hover{
   padding: 100px 0px 100px 0px;
   display: flex;
   flex-wrap: wrap;
-  /* text-align: center; */
 }
 .sixth div,.seventh div{
   margin-left: auto;
@@ -295,8 +283,8 @@ a.menu,a:hover{
 }
 /* eight container */
 .eight{
-  margin: 50px 55px 50px 50px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 div.gallery {
@@ -312,4 +300,28 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+}
+.eight-h1{
+  color: #24347e;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.fa-angle-up{
+  color: navy;
+  font-size: 40px !important;
+  font-weight: bolder !important;
+}
+.top-btn a:hover{
+  color: navy !important;
+  text-decoration: none;
+}
+.top-btn{
+  width: 60px;
+  height:60px;
+  border-radius: 30px ;
+  background-color: rgba(175, 159, 159, 0.603);
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
 }
